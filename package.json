@@ -1,5 +1,5 @@
 {
-  "name": "leland-rasmussen.github.io",
+  "name": "profile",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leland-rasmussen/leland-rasmussen.github.io.git"
+    "url": "git+https://github.com/leland-rasmussen/profile.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leland-rasmussen/leland-rasmussen.github.io/issues"
+    "url": "https://github.com/leland-rasmussen/profile/issues"
   },
-  "homepage": "https://github.com/leland-rasmussen/leland-rasmussen.github.io#readme"
+  "homepage": "https://github.com/leland-rasmussen/profile#readme"
 }
