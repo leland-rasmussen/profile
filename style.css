@@ -1,21 +1,22 @@
-body{
+body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
 p, h1 {
     margin: 0;
 }
 
-.title{
+.title {
     color: purple;
     font-size: x-large;
 }
 
-.nav{
+.nav {
     display: flex;
 }
 
-.link{
+.link {
     text-transform: uppercase;
     min-width: 100px;
     width: 100%;
@@ -23,27 +24,32 @@ p, h1 {
     padding: 10px 20px;
     cursor: pointer;
     letter-spacing: 3px;
+    border-bottom: 3px solid transparent;
 }
 
-.active-link{
+.link:hover {
+    border-bottom: 3px solid #212121;
+}
+
+.active-link {
     background-color: #212121;
     color: #ffffff;
     font-weight: bold;
 }
 
-.main{
+.main {
     margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main-wrapper{
+.main-wrapper {
     max-width: 350px;
     text-align: center;
 }
 
-.main-header{
+.main-header {
     position: relative;
     display: inline-block;
     font-size: 18px;
@@ -52,7 +58,7 @@ p, h1 {
     margin-bottom: 20px;
 }
 
-.main-header::before{
+.main-header::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -61,15 +67,36 @@ p, h1 {
     bottom: -4px;
 }
 
-.main-title{
+.main-title {
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.main-body{
+.main-body {
     margin-bottom: 20px;
     font-style: italic;
     line-height: 24px;
 }
 
+.down-button button {
+    width: 55px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: .15s ease-in-out all;
+}
+
+.down-button button:hover {
+    transform: scale(1.5);
+}
+
+section {
+    /* border: 5px solid hotpink; */
+    margin-bottom: 100px;
+    padding: 20px 100px;
+}
+
+section p {
+    max-width: 350px;
+}
