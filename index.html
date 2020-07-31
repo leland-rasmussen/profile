@@ -14,67 +14,103 @@
 
 <body>
     <nav class="nav">
-        <a id="leland" class="link active-link">Leland</a>
-        <a id="work" class="link">Work</a>
-        <a id="about" class="link">About</a>
-        <a id="process" class="link">Process</a>
-        <a id="feed" class="link">Feed</a>
-        <a id="contact" class="link">Contact</a>
+        <a href="#leland" class="link active-link" style="text-decoration:none">Leland</a>
+        <a href="#projects" class="link" style="text-decoration:none">Projects</a>
+        <a href="#travel" class="link" style="text-decoration:none">Travel</a>
+        <a href="#action" class="link" style="text-decoration:none">Action</a>
+        <a href="#contact" class="link" style="text-decoration:none">Contact</a>
     </nav>
 
-    <section class="main leland">
+    <section class="main">
         <div class="main-wrapper">
+            <a id="leland"></a>
+            <br></br>
+            <br></br>
+            <br></br>
             <p class="main-header">MEET</p>
             <h1 class="main-title">Leland</h1>
-            <p class="main-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni officiis quos vel autem sint totam a, dignissimos ipsa consequatur libero ducimus ad consequuntur ut quisquam dolorem sapiente quasi in!</p>
-            <div class="down-button"><button><img src="./images/arrow-outline-down.svg" alt=""></button></div>
+            <p class="main-body">Thanks for stopping by my site. It is a static HTML site where I can show my Projects,
+                Travels, and Actions I believe in. Feel to reach out in my Contacts!</p>
+            <div class="down-button"><button onClick="document.getElementById('projects').scrollIntoView();"><img
+                        src="./images/arrow-outline-down.svg" alt=""></button></div>
         </div>
     </section>
 
-    <section class="main work">
+    <section class="main" id='projects'>
         <div class="main-wrapper">
-            <p class="main-header">WORK</p>
-            <h1 class="main-title">Software Development</h1>
-            <p class="main-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni officiis quos vel autem sint totam a, dignissimos ipsa consequatur libero ducimus ad consequuntur ut quisquam dolorem sapiente quasi in!</p>
-            <h1 class="main-title">Weekend DJ</h1>
-            <p class="main-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni officiis quos vel autem sint totam a, dignissimos ipsa consequatur libero ducimus ad consequuntur ut quisquam dolorem sapiente quasi in!</p>
-            <div class="down-button"><button><img src="./images/arrow-outline-down.svg" alt=""></button></div>
+            <a id="projects"></a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <p class="main-header" id="projects">PROJECTS</P>
+            <h1 class="main-title">Camper Van</h1>
+            <p class="main-body">My partner and pup built out this 2007 Ford E-250 in 2017.
+            </p>
+            <br></br>
+            <br></br>
+            <h1 class="main-title">Below the Well</h1>
+            <p class="main-body">Our very own "speakeazy" Tiki bar underneath the secret hatch in our 1910 restored
+                bungalow</p>
+            <div class="down-button"><button onClick="document.getElementById('travel').scrollIntoView();"><img
+                        src="./images/arrow-outline-down.svg" alt=""></button></div>
         </div>
     </section>
 
-    <section class="main about">
+    <section class="main">
         <div class="main-wrapper">
-            <p class="main-header">ABOUT</p>
-            <h1 class="main-title">Jack of None</h1>
-            <p class="main-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni officiis quos vel autem sint totam a, dignissimos ipsa consequatur libero ducimus ad consequuntur ut quisquam dolorem sapiente quasi in!</p>
-            <div class="down-button"><button><img src="./images/arrow-outline-down.svg" alt=""></button></div>
+            <a id="travel"></a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <p class="main-header">TRAVEL</p>
+            <h1 class="main-title">Vantastic Trio</h1>
+            <p class="main-body">
+                We had both wanted a break after just finishing university. We set out on a trip around the United
+                States, chasing
+                70 degree weather and good company. You can check out my partners wonderful pictures of our journey
+                together on
+                <a href="http://fotamulitalorasmussen.blogspot.com/search/label/VanLife">her blog</a>
+                <br></br>
+                Check out this map of places we went on our maiden voyage in our custom built Camper Van.
+                We call ourselves the <b>Vantastic Trio</b></p>
+            <iframe src="https://www.tripline.net/map?tripId=35132462012310178066E946B2A90D66&onSite=0" width="350"
+                height="288" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <br></br>
+            <br></br>
+
+            <h1 class="main-title">Europe</h1>
+            <p class="main-body">Spent some time in Europe. You can read more about it.</p>
+            <div class="down-button"><button onClick="document.getElementById('action').scrollIntoView();"><img
+                        src="./images/arrow-outline-down.svg" alt=""></button></div>
         </div>
     </section>
 
-    <section class="main process">
+    <section class="main">
         <div class="main-wrapper">
-            <p class="main-header">PROCESS</p>
-            <h1 class="main-title">Function</h1>
-            <p class="main-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni officiis quos vel autem sint totam a, dignissimos ipsa consequatur libero ducimus ad consequuntur ut quisquam dolorem sapiente quasi in!</p>
-            <div class="down-button"><button><img src="./images/arrow-outline-down.svg" alt=""></button></div>
+            <a id="action"></a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <p class="main-header">ACTION</p>
+            <h1 class="main-title">BLM</h1>
+            <p class="main-body">"Peace can only happen when society is looking out for the most vulnerable</p>
+            <div class="down-button"><button onClick="document.getElementById('contact').scrollIntoView();"><img
+                        src="./images/arrow-outline-down.svg" alt=""></button></div>
         </div>
     </section>
 
-    <section class="main feed">
+    <section class="main">
         <div class="main-wrapper">
-            <p class="main-header">FEED</p>
-            <h1 class="main-title">Twitter</h1>
-            <p class="main-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni officiis quos vel autem sint totam a, dignissimos ipsa consequatur libero ducimus ad consequuntur ut quisquam dolorem sapiente quasi in!</p>
-            <div class="down-button"><button><img src="./images/arrow-outline-down.svg" alt=""></button></div>
-        </div>
-    </section>
-
-    <section class="main contact">
-        <div class="main-wrapper">
+            <a id="contact"></a>
+            <br></br>
+            <br></br>
+            <br></br>
             <p class="main-header">CONTACT</p>
-            <h1 class="main-title">Something</h1>
-            <p class="main-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni officiis quos vel autem sint totam a, dignissimos ipsa consequatur libero ducimus ad consequuntur ut quisquam dolorem sapiente quasi in!</p>
-            <div class="down-button"><button><img src="./images/arrow-outline-down.svg" alt=""></button></div>
+            <h1 class="main-title">All the Ways to Find Me</h1>
+            <p class="main-body">email: jlelandrasmussen@gmailcom</p>
+            <p class="main-body">instagram: @vantastic_trio</p>
+            <p class="main-body">twitter: @lelandddddd</p>
+            <a href="#leland">Back to Top</a>
         </div>
     </section>
 
