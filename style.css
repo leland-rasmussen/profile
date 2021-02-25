@@ -28,7 +28,6 @@ p, h1 {
 }
 
 .link {
-    text-transform: uppercase;
     min-width: 100px;
     width: 100%;
     text-align: center;
@@ -52,19 +51,19 @@ p, h1 {
     border-bottom: transparent;
 }
 
-.main {
+.category {
     margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main-wrapper {
+.category-wrapper {
     max-width: 350px;
     text-align: center;
 }
 
-.main-header {
+.category-header {
     position: relative;
     display: inline-block;
     font-size: 18px;
@@ -73,7 +72,7 @@ p, h1 {
     margin-bottom: 20px;
 }
 
-.main-header::before {
+.category-header::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -82,25 +81,25 @@ p, h1 {
     bottom: -4px;
 }
 
-.main-title {
+.category-title {
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.main-body {
+.category-body {
     margin-bottom: 20px;
     font-style: italic;
     line-height: 24px;
 }
 
-.main-img {
+.category-img {
     margin-top: 20px;
     margin-bottom: 20px;
     display: inline-block;
 }
 
-.down-button button {
+.enter-button button {
     width: 55px;
     background-color: transparent;
     border: none;
@@ -108,7 +107,7 @@ p, h1 {
     transition: .15s ease-in-out all;
 }
 
-.down-button button:hover {
+.enter-button button:hover {
     transform: scale(1.5);
 }
 
