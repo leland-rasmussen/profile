@@ -63,6 +63,17 @@ p, h1 {
     text-align: center;
 }
 
+.detail-wrapper {
+    text-align: center;
+}
+
+.detail {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .category-header {
     position: relative;
     display: inline-block;
