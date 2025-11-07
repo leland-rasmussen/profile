@@ -42,3 +42,26 @@ function smoothScroll(target, duration) {
 
     requestAnimationFrame(animation);
 }
+
+// Theme toggle logic
+const themeToggle = document.getElementById('theme-toggle');
+const themeIcon = document.getElementById('theme-icon');
+
+// Check saved theme
+if (localStorage.getItem('theme') === 'light') {
+  document.body.classList.add('light');
+  themeIcon.src = './images/moon.svg';
+}
+
+// Toggle theme on click
+themeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('light');
+
+  if (document.body.classList.contains('light')) {
+    themeIcon.src = './images/moon.svg';
+    localStorage.setItem('theme', 'light');
+  } else {
+    themeIcon.src = './images/sun.svg';
+    localStorage.setItem('theme', 'dark');
+  }
+});

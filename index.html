@@ -2,116 +2,118 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>leland</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
-    <link rel="javascript" href="">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code & Craft | Leland Rasmussen</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-
 <body>
+    <!-- NAVIGATION -->
     <nav class="nav">
-        <a href="#leland" class="link active-link" style="text-decoration:none">leland</a>
-        <a href="#projects" class="link" style="text-decoration:none">projects</a>
-        <a href="#goldblum" class="link" style="text-decoration:none">goldblum</a>
-        <a href="#contact" class="link" style="text-decoration:none">contact</a>
+        <a href="#home" class="link active-link" style="text-decoration:none">Code & Craft</a>
+        <a href="#services" class="link" style="text-decoration:none">Services</a>
+        <a href="#projects" class="link" style="text-decoration:none">Projects</a>
+        <a href="#contact" class="link" style="text-decoration:none">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle dark/light mode">
+            <img src="./images/sun.svg" alt="Toggle Theme" id="theme-icon">
+        </button>
     </nav>
 
-    <section class="category">
+    <!-- HERO / INTRO -->
+    <section class="category" id="home">
         <div class="category-wrapper">
-            <a id="leland"></a>
-            <br></br>
-            <br></br>
-            <br></br>
-            <p class="category-header">meet</p>
-            <h1 class="category-title">leland</h1>
-            <p class="category-body">Hi, thanks for stopping by, there's some stuff in here</p>
-            <div class="enter-button"><button onclick="document.getelementbyid('projects').scrollintoview();"><img
-                        src="./images/arrow-outline-down.svg" alt=""></button></div>
-        </div>
-    </section>
-
-    <section class="category">
-        <div class="category-wrapper">
-            <a id="projects"></a>
-            <br></br>
-            <br></br>
-            <br></br>
-            <p class="category-header">projects</p>
-            <h1 class="category-title">vantastic</h1>
-            <p class="category-body"></p>
-                me, the love of my life, and my dog lived in a van. fota did an
-                amazing job documenting the whole thing 
-                <a href="http://fotamulitalorasmussen.blogspot.com/search/label/vanlife">on her blog</a>
-                and our beautiful 
-                <a href="https://www.instagram.com/vantastic.trio/?hl=en">instagram</a>
-            </p>
-            <br></br>
-            <div class="enter-button">
-                <a href="vantastic.html">
-                    <button>
-                        <img src="./images/1551735115.svg" alt="">
-                    </button>
-                </a>
-            </div>
-            <br></br>
-            <br></br>
-            <h1 class="category-title">avocado house</h1>
-            <p class="category-body">Oh man, we bought a 110 year old house and fixed it up. there's also a collection of ad host quotes.
+            <br /><br /><br />
+            <p class="category-header">Welcome to</p>
+            <h1 class="category-title">Code & Craft</h1>
+            <p class="category-body">
+                Blending software engineering precision with creative design and animatronic artistry.
+                I’m <strong>Leland Rasmussen</strong> — I build systems that move, light up, and tell stories.
             </p>
             <div class="enter-button">
-                <a href="avocado.html">
-                    <button>
-                        <img src="./images/house.svg" alt="">
-                    </button>
-                </a>
+                <button onclick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' });">
+                    <img src="./images/arrow-outline-down.svg" alt="scroll down">
+                </button>
             </div>
         </div>
     </section>
 
-    <section class="category">
+    <!-- SERVICES -->
+    <section class="category" id="services">
         <div class="category-wrapper">
-            <a id="goldblum"></a>
-            <br></br>
-            <br></br>
-            <br></br>
-            <p class="category-header">goldblum</p>
-            <h1 class="category-title">enter at your own risk</h1>
-            <p class="category-body">this page is dedicated to my wife</p>
+            <br /><br /><br />
+            <p class="category-header">What I Do</p>
+            <h1 class="category-title">Services</h1>
+
+            <p class="category-body">
+                <strong>Software Engineering</strong>
+                • Web and app development (front/back end)
+                • Automation tools and integrations
+                • Prototyping, IoT, and control systems
+            </p>
+
+            <p class="category-body">
+                <strong>Animatronics & Show Design</strong>
+                • Custom animatronic builds and motion control
+                • Theatrical effects (lighting, sound, stage automation)
+                • Interactive attractions and immersive experiences
+            </p>
+
+            <p class="category-body">
+                Every project combines logic and imagination — the heart of Code & Craft.
+            </p>
             <div class="enter-button">
-                <a href="goldblum.html">
-                    <button>
-                        <img src="./images/caution-sign-svgrepo-com.svg" alt="">
-                    </button>
-                </a>
+                <button onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });">
+                    <img src="./images/arrow-outline-down.svg" alt="scroll down">
+                </button>
             </div>
         </div>
     </section>
 
-    <section class="category">
+    <!-- PROJECTS -->
+    <section class="category" id="projects">
         <div class="category-wrapper">
-            <a id="contact"></a>
-            <br></br>
-            <br></br>
-            <br></br>
-            <p class="category-header">contact</p>
-            <h1 class="category-title">please don't</h1>
-            <p class="category-body">instagram: @vantastic_trio</p>
-            <p class="category-body">twitter: @lelandddddd</p>
-            <p class="category-body">github: here</p>
-            <a href="#leland">back to top</a>
+            <br /><br /><br />
+            <p class="category-header">Selected Work</p>
+            <h1 class="category-title">Projects</h1>
+
+            <h2 class="category-subtitle">Animatronics</h2>
+            <p class="category-body">
+                Early prototypes include servo-driven character heads and interactive displays for theater and themed
+                entertainment.
+                More coming soon!
+            </p>
+
+            <h2 class="category-subtitle">Software</h2>
+            <p class="category-body">
+                Past software projects include automation systems, custom web tools, and creative code experiments.
+                My goal is always to fuse usability with artistic impact.
+            </p>
+
+            <div class="enter-button">
+                <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+                    <img src="./images/arrow-outline-down.svg" alt="scroll down">
+                </button>
+            </div>
         </div>
     </section>
 
-    <!-- <section><p>lorem ipsum dolor sit amet consectetur adipisicing elit. eligendi magni officiis quos vel autem sint totam a, dignissimos ipsa consequatur libero ducimus ad consequuntur ut quisquam dolorem sapiente quasi in!</p></section>-->
+    <!-- CONTACT -->
+    <section class="category" id="contact">
+        <div class="category-wrapper">
+            <br /><br /><br />
+            <p class="category-header">Get In Touch</p>
+            <h1 class="category-title">Contact</h1>
+            <p class="category-body">Interested in a project or collaboration?</p>
+            <p class="category-body">Email: <a href="mailto:hello@codeandcraft.design">hello@codeandcraft.design</a></p>
+            <p class="category-body">GitHub: <a href="https://github.com/leland">github.com/leland</a></p>
+            <a href="#home">Back to top</a>
+        </div>
+    </section>
 
-    <script src="scripts.js">
-
-    </script>
-
+    <script src="scripts.js"></script>
 </body>
 
 </html>
